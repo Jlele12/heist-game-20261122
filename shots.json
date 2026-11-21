@@ -1,0 +1,6 @@
+[
+  { "name": "1-overview.png", "query": "?shot=overview" },
+  { "name": "2-guard-hunt.png", "query": "?shot=hunt" },
+  { "name": "3-vault-crack.png", "query": "?shot=vault" },
+  { "name": "4-getaway.png", "query": "?shot=getaway" }
+]
