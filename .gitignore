@@ -1,2 +1,4 @@
-out/
-node_modules/
+session.json
+system-prompt.txt
+check-results.txt
+t.tar.gz
