@@ -1,6 +1,7 @@
 // Hands Cobalt Vault in: copies the game's static files (game/) and its real gameplay
 // screenshots (screenshots/) to /output, then writes /output/dossier.json with buildDossier
-// from the vendored makefun library, exactly as the grader reads it.
+// from the vendored makefun library, exactly as the grader reads it. The dossier is capped at
+// 160 KiB of source text, which the game's own ES modules fit whole.
 //
 // Serve the game locally with `node serve.ts`, then open http://localhost:8080.
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
